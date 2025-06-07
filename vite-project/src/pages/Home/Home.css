@@ -51,6 +51,23 @@
 }
 
 
+.product-section{
+    width: 100%;
+    padding: 10px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.home h1{
+    text-align: center;
+    margin: 20px;
+}
+
 
 
 
