@@ -1,9 +1,9 @@
-import elec from './assets/elec.png';
-import fash from './assets/fashion.png';
-import beauty from './assets/beauty.jpg';
-import home from './assets/home.jpg';
-import sports from './assets/sports.jpg';
-import all from './assets/empaty.jpg';
+import elec from './assets/img/electronics.png';
+import fash from './assets/img/fashion.png';
+import beauty from './assets/img/beauty.jpg';
+import home from './assets/img/home.jpg';
+import sports from './assets/img/sports.jpg';
+import all from './assets/img/All.png';
 
 
 export const category = [
@@ -38,7 +38,7 @@ export const category = [
         desc: "Explore the latest in electronics, from smartphones to laptops and more.",
     },
     {
-        id:5,
+        id:6,
         name:"all",
         img: all,
         desc: "Explore the latest in electronics, from smartphones to laptops and more.",

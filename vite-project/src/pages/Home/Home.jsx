@@ -1,26 +1,26 @@
-
-import Nav from '../../components/Nav/Nav'
-import bg from '../../assets/Img/bg0.gif'
-import "./Home.css"
-import { category } from '../../Catogery'
+import bg from "../../assets/Img/bg0.gif";
+import "./Home.css";
+import { category } from "../../category";
 
 const Home = () => {
   return (
-    <div className='home'>
-        <div className='hero-img'>
-          <img src={bg} alt="background img" />
-        </div>
+    <div className="home">
+      <div className="hero-img">
+        <img src={bg} alt="background img" />
+      </div>
+      <div className="cetogery-section">
+        {category.map((items) => (
+          <div className="category-cart" key={items.id}>
+            <img src={items.img} alt={items.name} />
+            <div className="category-item-name">
 
-<div className='catogry'>
-  {category.map((item) =>{
-    return <div className='card-item'>
-      <img src={item} alt="" />
-      <h3>{item.name}</h3>
+            <span>{items.name}</span>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
-  })}
-</div>
-    </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
